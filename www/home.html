@@ -1,0 +1,27 @@
+<ons-navigator>
+   <ons-page ng-controller="HomeCtrl">
+        <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+            </div>
+            <div class="center"><span>RESUME</span></div>
+        </ons-toolbar>
+
+        <div style="text-align: center">
+            <h3>Personal Information</h1>
+                
+            <ons-list modifier="inset" style="margin-top: 10px">
+                <ons-list-item ng-repeat="info in basic_info">
+                    <ons-row class="row">
+                        <ons-col width="35%">
+                            {{info['title']}}
+                        </ons-col>
+                        <ons-col>
+                            <b>{{info['content']}}</b>
+                        </ons-col>
+                    </ons-row>
+                </ons-list-item>
+            </ons-list>
+        </div>
+    </ons-page>
+</ons-navigator>

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'exo_medium';
+  src: url("../fonts/Exo-Medium.otf") format("opentype");
+  src: local('☺'), 
+       url("../fonts/Exo-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Disney';
+  src: url("../fonts/disney.otf") format("opentype");
+  src: local('☺'), 
+       url("../fonts/disney.otf") format("opentype");
+}
+
+@font-face {font-family: "AvenirNextLTW01-Light";
+    src: url("http://db.onlinewebfonts.com/t/c8f5535fdf1f466278fd36a26108719b.eot");
+    src: url("http://db.onlinewebfonts.com/t/c8f5535fdf1f466278fd36a26108719b.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/c8f5535fdf1f466278fd36a26108719b.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/c8f5535fdf1f466278fd36a26108719b.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/c8f5535fdf1f466278fd36a26108719b.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/c8f5535fdf1f466278fd36a26108719b.svg#AvenirNextLTW01-Light") format("svg");
+}
+
+* {
+	font-family: AvenirNextLTW01-Light;
+}
+
+.disney {
+	font-family: Disney;
+}
+
+.row {
+	padding: 10px 0 10px 0;
+	line-height: 150%;
+}
+
+.left-10 {
+	padding-left: 10px;
+}
+
+.font-12 {
+	font-size: 12px;
+}
+
+.font-14 {
+	font-size: 14px;
+}

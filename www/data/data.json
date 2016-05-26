@@ -1,0 +1,119 @@
+{
+	"basicInfo": [
+		{
+			"title" : "Name",
+			"content" : "KHOURN Khemry"
+		},
+		{
+			"title" : "Email",
+			"content" : "khourn.khemry@gmail.com"
+		},
+		{
+			"title" : "Phone",
+			"content" : "(+81)80-4660-8899"
+		},
+		{
+			"title" : "Address",
+			"content" : "193-13-203 Naka-machi, Kodaira-shi, 187-0042 Tokyo"
+		},
+		{
+			"title" : "Date of Birth",
+			"content" : "March 9th, 1989"
+		},
+		{
+			"title" : "Nationality",
+			"content" : "Cambodian"
+		},
+		{
+			"title" : "Gender",
+			"content" : "Female"
+		}
+	],
+
+	"educationBackground": [
+		{
+			"period" : "2013 - Now",
+			"level" : "PhD Degree",
+			"course" : "of Global Information and Telecommunication Studies (GITS)",
+			"place" : "Waseda University",
+			"location" : "Tokyo, Japan"
+		},
+		{
+			"period" : "2011 - 2013",
+			"level" : "Master Degree",
+			"course" : "of Global Information and Telecommunication Studies (GITS)",
+			"place" : "Waseda University",
+			"location" : "Tokyo, Japan"
+		},
+		{
+			"period" : "2006 - 2010",
+			"level" : "Bachelor's Degree",
+			"course" : "of Computer Science",
+			"place" : "Royal University of Phnom Penh",
+			"location" : "Phnom Penh, Cambodia"
+		},
+		{
+			"period" : "2011",
+			"level" : "Level 4",
+			"course" : "on Japanese Language Course",
+			"place" : "Waseda University",
+			"location" : "Saitama, Japan"
+		},
+		{
+			"period" : "2010",
+			"level" : "Training",
+			"course" : "on Mobile Edu-Game based Learning",
+			"place" : "SEAMEO Regional Open Learning Center",
+			"location" : "Indonesia"
+		},
+		{
+			"period" : "2009",
+			"level" : "Private Course",
+			"course" : "Open Source Web Development",
+			"place" : "",
+			"location" : "Phnom Penh, Cambodia"
+		},
+		{
+			"period" : "2008",
+			"level" : "Training",
+			"course" : "Cisco Networking Academy (Discovery 4.0)",
+			"place" : "National Information Communications Technology Development Authority",
+			"location" : "Phnom Penh, Cambodia"
+		},
+		{
+			"period" : "2007-2009",
+			"level" : "Diploma Level",
+			"course" : "on English Language Course",
+			"place" : "Australian Center for Education",
+			"location" : "Phnom Penh, Cambodia"
+		},
+		{
+			"period" : "2007-2008",
+			"level" : "Private Course",
+			"course" : "C and C++ Programming Languages",
+			"place" : "",
+			"location" : "Phnom Penh, Cambodia"
+		},
+		{
+			"period" : "2007-2008",
+			"level" : "Level 4",
+			"course" : "on Japanese Language Course",
+			"place" : "Cambodia-­Japan Corporation Center",
+			"location" : "Phnom Penh, Cambodia"
+		}
+	],
+	"language": [
+		{
+			"language" : "Khmer",
+			"level" : "Native"
+		},
+		{
+			"language" : "English",
+			"level" : "Fluent"
+		},
+		{
+			"language" : "Japanese",
+			"level" : "Basic"
+		}
+	]
+}
