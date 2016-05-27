@@ -1,9 +1,9 @@
-<ons-page ng-controller="AwardCtrl">
+<ons-page ng-controller="LanguageCtrl">
     <ons-toolbar>
         <div class="left">
             <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
         </div>
-        <div class="center"><b>Awards & Scholarships</b></div>
+        <div class="center"><b>Languages</b></div>
     </ons-toolbar>
 
     <div style="text-align: center">
@@ -12,7 +12,7 @@
             <ons-list-item ng-repeat="language in languages">
                 <ons-row class="row">
                     <ons-col width="35%">
-                        {{language['language']}}
+                        <b>{{language['language']}}</b>
                     </ons-col>
                     <ons-col>
                         {{language['level']}}
