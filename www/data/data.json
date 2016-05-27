@@ -115,5 +115,42 @@
 			"language" : "Japanese",
 			"level" : "Basic"
 		}
+	],
+	"publications": [
+		{
+			"title" : "Train Ticket Gate System employing Optical Wireless Communications",
+			"authors" : "K. Khemry, L. Jiang & S. Shimamoto",
+			"conference" : "13th IEEE Annual Consumer Communications & Networking Conference (CCNC)",
+			"date" : "January, 2016",
+			"location" : "Las Vegas, United States of America"
+		},
+		{
+			"title" : "Position Accuracy for Indoor Localization System employing Visible Light Communication",
+			"authors" : "K. Khemry, L. Jiang & S. Shimamoto",
+			"conference" : "Proceeding of IEICE General Conference",
+			"date" : "September, 2015",
+			"location" : "Tohoku University, Sendai City, Japan"
+		},
+		{
+			"title" : "Performance Evaluation of Optical Wireless Identification Scheme employing Thinfilm Corner Cube Retroreflector",
+			"authors" : "K. Khemry, L. Jiang, W. Noonpakdee & S. Shimamoto",
+			"conference" : "IEEE Int. Symposium on Personal, Indoor and Mobile Radio Communicaions (PIMRC)",
+			"date" : "September, 2013",
+			"location" : "London, United Kingdom"
+		},
+		{
+			"title" : "Energy Harvesting Based Optical Wireless Identification Scheme Employing Thinfilm Corner Cube Retroreflector",
+			"authors" : "K. Khemry, L. Jiang, W. Noonpakdee & S. Shimamoto",
+			"conference" : "Proceeding of IEICE General Conference",
+			"date" : "March, 2013",
+			"location" : "Gifu University, Gifu City, Japan"
+		},
+		{
+			"title" : "Mapping Healthcare Centers in Phnom Penh, Cambodia",
+			"authors" : "K. Khemry, S. Menglim, K. Oudom & K. Sokchea",
+			"conference" : "Japan-Cambodia Joint Symposium on Information Systems and Communication Technology (JCAICT)",
+			"date" : "January, 2011",
+			"location" : "Phnom Penh, Cambodia"
+		}
 	]
 }

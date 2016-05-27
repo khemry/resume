@@ -36,3 +36,9 @@ app.controller('AwardCtrl', function($scope, GetData){
 	//     $scope.languages = data.language;
 	// });
 });
+
+app.controller('PublicationCtrl', function($scope, GetData){
+	GetData.success(function(data) { 
+	    $scope.publications = data.publications;
+	});
+});
