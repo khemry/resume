@@ -152,5 +152,81 @@
 			"date" : "January, 2011",
 			"location" : "Phnom Penh, Cambodia"
 		}
+	],
+	"publications": [
+		"scholarships": [
+			{
+				"period" : "2013-2016",
+				"title" : "Tuition Fee Payment & Monthly Allowance",
+				"course" : "PhD Degree of Global Information and Telecommunication Studies",
+				"donor" : "from Japanese Government (MEXT Scholarship)",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2011-2013",
+				"title" : "Tuition Fee Payment & Monthly Allowance",
+				"course" : "Master Degree of Global Information and Telecommunication Studies",
+				"donor" : "from Japanese Government (MEXT Scholarship)",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2006-2010",
+				"title" : "Tuition Fee Waiver",
+				"course" : "Bachelor's Degree of Computer Science",
+				"donor" : "from Cambodian Government",
+				"location" : "Phnom Penh, Cambodia"
+			},
+			{
+				"period" : "2007-2010",
+				"title" : "Yearly Allowance",
+				"course" : "Excelent Student Support",
+				"donor" : "from Cambodian Education Excellence (CEE) Foundation",
+				"location" : "United States"
+			},
+			{
+				"period" : "2007-2009",
+				"title" : "Tuition Fee Waiver",
+				"course" : "English Course (Diploma Level)",
+				"donor" : "from Australian Center for Education (ACE)",
+				"location" : "Phnom Penh, Cambodia"
+			},
+			{
+				"period" : "2003-2006",
+				"title" : "Tuition Fee Waiver",
+				"course" : "High School Diploma",
+				"donor" : "from Oudom Vichea High School",
+				"location" : "Kampot Province, Cambodia"
+			}
+		],
+		"awards": [
+			{
+				"period" : "2011",
+				"title" : "10,000 USD Prize Money",
+				"course" : "Honda YES (Young Engineer and Scientist) Plus Award",
+				"donor" : "from Honda Foundation",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2010",
+				"title" : "3000 USD Prize Money",
+				"course" : "Honda YES (Young Engineer and Scientist) Award",
+				"donor" : "from Honda Foundation",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2006-2010",
+				"title" : "Tuition Fee Waiver",
+				"course" : "Bachelor's Degree of Computer Science",
+				"donor" : "from Cambodian Government",
+				"location" : "Phnom Penh, Cambodia"
+			},
+			{
+				"period" : "2003-2006",
+				"title" : "Tuition Fee Waiver",
+				"course" : "High School Diploma",
+				"donor" : "from Oudom Vichea High School",
+				"location" : "Kampot Province, Cambodia"
+			}
+		]
 	]
 }
