@@ -279,14 +279,78 @@
 	],
 	"interests": [
 		{
-			"TV Series" : ["The Big Bang Theory (Shamy is my ideal couple)", "F.R.I.E.N.D.S"],
-			"Documentary" : ["Myth Buster", "The Internet's Own Boy", "TED Talks", "The Inconvenient Truth"],
-			"Games" : ["League of Legends (ADC main)", "Diner Dash series", "Brain Teasers such as Peak, Lumosity, ..."],
-			"Physical Activities" : ["Karaoke", "Shopping", "Badminton", "Biking", "Hiking"],
-			"Books" : ["Self Development Books such as 7 Habits of Highly Effective Teens, Rich Dad Poor Dad, Mindset, How to Win Friends and Influence People and so on"],
-			"Movies" : ["The Internship", "Steve Jobs", "Beautiful Minds", "Harry Potter series", "The Hobbits series", "Animations"],
-			"quotes" : ["People are just about as happy as they make up their mind to be.", "Always be the first-rate version of yourself instead of a second-rate version of somebody else.", "When something bad happens you have 3 choices: let it define you, let it destroy you or let it strengthen you.", "Confidence is the companion of success"],
-			"side_note" : ["I like Korean Dramas and variety shows, follow Japanese animes and mangas, and love American TV Series and songs"]
+			"type" : "TV Series", 
+			"contents" : [
+				"The Big Bang Theory (Shamy is my ideal couple)", 
+				"F.R.I.E.N.D.S"
+			]
+		},
+		{
+			"type" : "Documentary",
+			"contents" : [
+				"Myth Buster", 
+				"The Internet's Own Boy", 
+				"TED Talks", 
+				"Space Related Programs"
+			]
+		},
+		{
+			"type" : "Games",
+			"contents" : [
+				"League of Legends (ADC main)", 
+				"Diner Dash series", 
+				"Brain Teasers such as Peak, Lumosity, ..."
+			]
+		},
+		{
+			"type" : "Physical Activities",
+			"contents" : [
+				"Karaoke", 
+				"Shopping", 
+				"Badminton", 
+				"Biking", 
+				"Hiking..."
+			]
+		},
+		{
+			"type" : "Books",
+			"contents" : [
+				"7 Habits of Highly Effective Teens",
+				"Rich Dad Poor Dad",
+				"Mindset",
+				"How to Win Friends and Influence People..."
+			]
+		},
+		{
+			"type" : "Movies",
+			"contents" : [
+				"The Internship", 
+				"Steve Jobs", 
+				"Beautiful Minds", 
+				"Harry Potter series", 
+				"The Hobbits series", 
+				"Animations..."
+			]
+		},
+		{
+			"type" : "Quotes",
+			"contents" : [
+				"People are just about as happy as they make up their mind to be.", 
+				"Always be the first-rate version of yourself instead of a second-rate version of somebody else.", 
+				"When something bad happens you have 3 choices: let it define you, let it destroy you or let it strengthen you.", 
+				"Confidence is the companion of success."
+			]
+		},
+		{
+			"type" : "Anime",
+			"contents" : [
+				"Naruto",
+				"Naruto Shippuden",
+				"Attack of Titans", 
+				"Kaicho Wa Maid Sama", 
+				"Prince of Tennis..."
+			]
 		}
 	]
+	
 }

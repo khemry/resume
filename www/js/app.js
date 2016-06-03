@@ -42,6 +42,6 @@ app.controller('ExperiencesCtrl', function($scope, GetData){
 
 app.controller('InterestsCtrl', function($scope, GetData){
 	GetData.success(function(data) { 
-	    $scope.interests = data.interests[0];
+	    $scope.interests = data.interests;
 	});
 });
