@@ -3,38 +3,19 @@
         <div class="left">
             <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
         </div>
-        <div class="center"><span>Interests & Hobbies</span></div>
+        <div class="center"><b>Interests & Hobbies</b></div>
     </ons-toolbar>
 
     <div class="text-center font-14">
-    	<!-- <p>{{interests['content']}}</p> -->
+
         <ons-list modifier="inset" style="margin-top: 10px" ng-repeat="interest in interests">
             <ons-list-header>{{interest['type']}}</ons-list-header>
             <ons-list-item ng-repeat="content in interest['contents']" class="interests_row">
                 <ul>
-                    <li>{{content}}</li>
+                    <li ng-class="getClass(interest)">{{content}}</li>
                 </ul>
-            <!-- <ons-row>
-              <ons-col width="18%">
-                <div>{{content}}</div>
-             
-              </ons-col>
-
-              <ons-col width="6px" ng-style="{backgroundColor:'#5198db'}">
-              </ons-col>
-
-              <ons-col class="left-10">
-                    <b>{{edu_bg['level']}}</b><br/>
-                    {{edu_bg['course']}}<br/>
-                    <div class="font-12">
-                        <ons-icon icon="fa-university"></ons-icon>  {{edu_bg['place']}}<br/>
-                        <ons-icon icon="fa-map-marker"></ons-icon>  {{edu_bg['location']}}
-                    </div>
-                  
-              </ons-col>
-            </ons-row> -->
-          </ons-list-item>
-
+            </ons-list-item>
         </ons-list>
+        
     </div>
 </ons-page>
