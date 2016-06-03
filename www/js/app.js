@@ -8,6 +8,12 @@ app.controller('HomeCtrl', function($scope, GetData){
 	GetData.success(function(data) { 
 	    $scope.basic_info = data.basicInfo;
 	});
+
+	$scope.getClass = function (info) {
+    	return {
+      		email: info['title'] === 'Email'
+    	};
+  	};
 });
 
 app.controller('EducationCtrl', function($scope, GetData){
@@ -44,4 +50,10 @@ app.controller('InterestsCtrl', function($scope, GetData){
 	GetData.success(function(data) { 
 	    $scope.interests = data.interests;
 	});
+
+	$scope.getClass = function (interest) {
+    	return {
+      		quote: interest['type'] === 'Quotes'
+    	};
+  	};
 });

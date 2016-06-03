@@ -4,7 +4,7 @@
             <div class="left">
                 <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
             </div>
-            <div class="center"><span>RESUME</span></div>
+            <div class="center"><b>RESUME</b></div>
         </ons-toolbar>
 
         <div class="text-center font-14">
@@ -16,8 +16,8 @@
                         <ons-col width="35%">
                             {{info['title']}}
                         </ons-col>
-                        <ons-col>
-                            <b>{{info['content']}}</b>
+                        <ons-col ng-class="getClass(info)">
+                            {{info['content']}}
                         </ons-col>
                     </ons-row>
                 </ons-list-item>

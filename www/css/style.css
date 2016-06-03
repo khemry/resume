@@ -42,3 +42,11 @@
   padding: 1px 0 1px 0;
   line-height: 150%;
 }
+
+.email {
+  font-size: 14px;
+}
+
+.quote {
+  font-style: italic;
+}
