@@ -1,5 +1,4 @@
-<ons-page>
-
+<ons-page ng-controller="InterestsCtrl">
     <ons-toolbar>
         <div class="left">
             <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
@@ -8,6 +7,30 @@
     </ons-toolbar>
 
     <div style="text-align: center">
-        <p>All pictures are taken from <a class="disney" href="http://www.disney.co.jp/">Disney</a></p>
+    	<p>{{interests}}</p>
+        <ons-list modifier="inset" style="margin-top: 10px">
+            <ons-list-item ng-repeat="interest in interests">
+            <ons-row>
+              <ons-col width="18%">
+                <div>{{interest}}</div>
+             
+              </ons-col>
+
+              <ons-col width="6px" ng-style="{backgroundColor:'#5198db'}">
+              </ons-col>
+
+              <ons-col class="left-10">
+                    <!-- <b>{{edu_bg['level']}}</b><br/>
+                    {{edu_bg['course']}}<br/>
+                    <div class="font-12">
+                        <ons-icon icon="fa-university"></ons-icon>  {{edu_bg['place']}}<br/>
+                        <ons-icon icon="fa-map-marker"></ons-icon>  {{edu_bg['location']}}
+                    </div> -->
+                  
+              </ons-col>
+            </ons-row>
+          </ons-list-item>
+
+        </ons-list>
     </div>
 </ons-page>

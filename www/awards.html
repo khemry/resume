@@ -1,4 +1,4 @@
-<ons-page ng-controller="PublicationCtrl">
+<ons-page ng-controller="AwardsCtrl">
     <ons-toolbar>
         <div class="left">
             <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
@@ -8,10 +8,12 @@
 
     <div style="text-align: center">
         <!-- <ons-list class="plan-list"> -->
-        <ons-list modifier="inset" style="margin-top: 10px">
-            <ons-list-item class="plan" ng-repeat="publication in publications track by $index">
+        <!-- {{awards['awards']}} -->
+        <ons-list modifier="inset" style="margin-top: 10px" ng-repeat="type in ['Scholarships', 'Awards']">
+            <ons-list-header class="person-list-header">{{type}}</ons-list-header>
+            <ons-list-item class="plan" ng-repeat="award in awards[type] track by $index">
             <ons-row>
-              <ons-col width="5%">
+              <ons-col width="18%">
                 {{$index+1}}
               </ons-col>
 
@@ -19,13 +21,12 @@
               </ons-col>
 
               <ons-col class="left-10">
-                    <b>{{publication['title']}}</b><br/>
-                    {{edu_bg['course']}}<br/>
+                    <b>{{award['title']}}</b><br/>
+                    {{award['course']}}<br/>
                     <div class="font-12">
-                        <ons-icon icon="fa-users"></ons-icon>  {{publication['authors']}}<br/>
-                        <ons-icon icon="fa-university"></ons-icon>  {{publication['conference']}}<br/>
-                        <ons-icon icon="fa-calendar"></ons-icon>  {{publication['date']}}<br/>
-                        <ons-icon icon="fa-map-marker"></ons-icon>  {{publication['location']}}
+                        <ons-icon icon="fa-calendar"></ons-icon>  {{award['period']}}<br/>
+                        <ons-icon icon="fa-university"></ons-icon>  {{award['donor']}}<br/>
+                        <ons-icon icon="fa-map-marker"></ons-icon>  {{award['location']}}
                     </div>
                   
               </ons-col>

@@ -152,5 +152,141 @@
 			"date" : "January, 2011",
 			"location" : "Phnom Penh, Cambodia"
 		}
+	],
+	"awards_scholarships": {
+		"Scholarships": [
+			{
+				"period" : "2013-2016",
+				"title" : "Tuition Fee Payment & Monthly Allowance",
+				"course" : "PhD Degree of Global Information and Telecommunication Studies",
+				"donor" : "from Japanese Government (MEXT Scholarship)",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2011-2013",
+				"title" : "Tuition Fee Payment & Monthly Allowance",
+				"course" : "Master Degree of Global Information and Telecommunication Studies",
+				"donor" : "from Japanese Government (MEXT Scholarship)",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2006-2010",
+				"title" : "Tuition Fee Waiver",
+				"course" : "Bachelor's Degree of Computer Science",
+				"donor" : "from Cambodian Government",
+				"location" : "Phnom Penh, Cambodia"
+			},
+			{
+				"period" : "2007-2010",
+				"title" : "Yearly Allowance",
+				"course" : "Excelent Student Support",
+				"donor" : "from Cambodian Education Excellence (CEE) Foundation",
+				"location" : "United States"
+			},
+			{
+				"period" : "2007-2009",
+				"title" : "Tuition Fee Waiver",
+				"course" : "English Course (Diploma Level)",
+				"donor" : "from Australian Center for Education (ACE)",
+				"location" : "Phnom Penh, Cambodia"
+			},
+			{
+				"period" : "2003-2006",
+				"title" : "Tuition Fee Waiver",
+				"course" : "High School Diploma",
+				"donor" : "from Oudom Vichea High School",
+				"location" : "Kampot Province, Cambodia"
+			}
+		],
+		"Awards": [
+			{
+				"period" : "2011",
+				"title" : "10,000 USD Prize Money",
+				"course" : "Honda YES (Young Engineer and Scientist) Plus Award",
+				"donor" : "from Honda Foundation",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2010",
+				"title" : "3000 USD Prize Money",
+				"course" : "Honda YES (Young Engineer and Scientist) Award",
+				"donor" : "from Honda Foundation",
+				"location" : "Tokyo, Japan"
+			},
+			{
+				"period" : "2005-2006",
+				"title" : "The Outstanding Student Award in Physics",
+				"course" : "High School Diploma",
+				"donor" : "from Ministry of Education",
+				"location" : "Kampot Province, Cambodia"
+			},
+			{
+				"period" : "2002-2003",
+				"title" : "The Outstanding Student Award in Physics",
+				"course" : "Secondary School Diploma",
+				"donor" : "from Ministry of Education",
+				"location" : "Kep Province, Cambodia"
+			}
+		]
+	},
+	"experiences": [
+		{
+			"period" : "2012 - Now",
+			"position" : "Software Engineer",
+			"company" : "Asial Co, Ltd",
+			"location" : "Tokyo, Japan",
+			"responsibilities" : [
+				"Write and maintain Monaca documentation",
+				"Create sample applications using Monaca",
+				"Work with JavaScript, CSS, HTML, AngularJS, JSON, SASS"
+			]
+		},
+		{
+			"period" : "2014 - Now",
+			"position" : "IT Officer",
+			"company" : "Cambodian Students Association in Japan (CSAJ)",
+			"location" : "Tokyo, Japan",
+			"responsibilities" : [
+				"Maintain CSAJ's website",
+				"Design posters for all CSAJ's events",
+				"Help with technical issues occuring in CSAJ's events"
+			]
+		},
+		{
+			"period" : "2009 - 2011",
+			"position" : "IT Staff",
+			"company" : "IT Center at Royal University of Phnom Penh",
+			"location" : "Phnom Penh, Cambodia",
+			"responsibilities" : [
+				"Microsoft project's core assistant of Khmer localization version on Windows 7, Internet Explorer 9 and Microsoft Office 14",
+				"Organizing assistant of Google Camp at Royal University of Phnom Penh in Cambodia",
+				"Project assistant of SIRCA project on presumptive diagnosis and awareness for STDs via SMS for young Cambodians in rural areas",
+				"Project assistant on Google project on mapping healthcare centers in Phnom Penh",
+				"Organizing assistant of Japan-Cambodia Joint Symposium on Information Systems and Communication Technology (JCAICT)",
+				"Organizing assistant and a local trip chair of the 2nd international conference on Intelligent Systems, Modelling and Simulation (ISMS)"
+			]
+		},
+		{
+			"period" : "2010",
+			"position" : "Online Market Researcher",
+			"company" : "FORVAL Cambodia Co, Ltd",
+			"location" : "Phnom Penh, Cambodia",
+			"responsibilities" : [
+				"Research on the most popular game sites which support mobile SNS",
+				"Research on the most popular and hot topics in Information Technology from users' point of views"
+			]
+		}
+	],
+	"interests": [
+		{
+			"TV Series" : ["The Big Bang Theory (Shamy is my ideal couple)", "F.R.I.E.N.D.S"],
+			"Documentary" : ["Myth Buster", "The Internet's Own Boy", "TED Talks", "The Inconvenient Truth"],
+			"Games" : ["League of Legends (ADC main)", "Diner Dash series", "Brain Teasers such as Peak, Lumosity, ..."],
+			"Physical Activities" : ["Karaoke", "Shopping", "Badminton", "Biking", "Hiking"],
+			"Books" : ["Self Development Books such as 7 Habits of Highly Effective Teens, Rich Dad Poor Dad, Mindset, How to Win Friends and Influence People and so on"],
+			"Movies" : ["The Internship", "Steve Jobs", "Beautiful Minds", "Harry Potter series", "The Hobbits series", "Animations"],
+			"quotes" : ["People are just about as happy as they make up their mind to be.", "Always be the first-rate version of yourself instead of a second-rate version of somebody else.", "When something bad happens you have 3 choices: let it define you, let it destroy you or let it strengthen you.", "Confidence is the companion of success"],
+			"side_note" : ["I like Korean Dramas and variety shows, follow Japanese animes and mangas, and love American TV Series and songs"]
+		}
 	]
 }
