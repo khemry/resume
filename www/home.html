@@ -14,8 +14,9 @@
                 <ons-list-item ng-repeat="info in basic_info">
                     <ons-row class="row">
                         <ons-col width="35%">
-                            {{info['title']}}
+                            <b>{{info['title']}}</b>
                         </ons-col>
+
                         <ons-col ng-class="getClass(info)">
                             {{info['content']}}
                         </ons-col>
